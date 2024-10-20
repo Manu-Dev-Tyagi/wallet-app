@@ -1,0 +1,93 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-color: #102132;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f5f1f1;
+}
+
+.seed-section {
+  margin: 20px;
+}
+
+.seed-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.seed-word {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wallet-section {
+  margin-top: 30px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.seed-section input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+
+
+.wallet-box {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.wallet-box p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.wallet-box input {
+  padding: 5px;
+  font-size: 0.9rem;
+  width: 50%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.wallet-box button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.wallet-box button:hover {
+  background-color: #218838;
+}
